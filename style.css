@@ -152,8 +152,48 @@ margin-left: 25px;
 .search-bar h4{
    margin-right: 30px;
 }
+/* section part1 */
+.popular-tours{
+   margin-left: 135px;
+   align-items: center;
+   margin-top: 103px;
+}
+.our-tours{
+   max-width: 540px;
+   height: 550px;
+}
+.popular-title{
+   max-width: 365px;
+   height: 50px;
+   font-size: 2.5rem;
+   font-weight: 900;
+   color: rgba(19, 19, 24, 1);
+}
+.popular-description1, .popular-description2{
+   max-width: 577px;
+   height: 52px;
+   font-size: 1rem;
+   margin-top: 24px;
+}
 
-
+.ul{
+   max-width: 525px;
+   height: 188px;
+   font-size: 1rem;
+   margin-left: 15px;
+}
+.ul li{
+   list-style: circle;
+   margin-top: 24px;
+}
+.our-tours button{
+   margin-top: 32px;
+} 
+.images{
+   max-width: 540px;
+   height: 550px;
+   margin-right: 135px;
+}
 /* Responsive design */
 
 @media screen and (max-width: 576px) {
@@ -203,7 +243,6 @@ margin-left: 25px;
       margin-right: 12px;
    }
    .select-tag select, .search-bar{
-      /* margin-top: 24px; */
       width: 255px;
       height: 52px;
    }
@@ -220,5 +259,63 @@ margin-left: 25px;
   .search-bar h4{
    margin-right: 70px;
   }
+.our-tours{
+      width: 361px;
+         height: 550px;
+        margin-left: -130px;
+}
+.images img{
+   width: 361px;
+   height: 450px;
+   margin: 0;
+   margin-top: -50px;
+}
+.popular-title{
+   margin-top: -100px;
+   margin-bottom: 60px;
+}
+.our-tours button {
+   margin-top: 60px;
+}
 
+}
+
+/* responsive for laptop */
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+   .nav-title{
+      margin-left: 10px;
+      margin-right: 0;
+   }
+   .nav-list{
+      margin-right: 25px;
+   }
+   ul .nav-lists{
+      margin-left: -10px;
+   }
+
+.popular-tours{
+   margin-top: 150px;
+}
+      .our-tours {
+         width: 361px;
+         height: 550px;
+         margin-left: -80px;
+      }
+   
+      .images img {
+         width: 361px;
+         height: 450px;
+         margin: 0;
+         margin-top: -50px;
+         margin-right: -80px;
+      }
+   
+      .popular-title {
+         margin-top: -100px;
+         margin-bottom: 60px;
+      }
+   
+      .our-tours button {
+         margin-top: 60px;
+      }
 }
