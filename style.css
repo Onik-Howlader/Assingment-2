@@ -45,6 +45,9 @@ body{
 }
 
  /* nav styles section */
+ .sidebar{
+   display: none;
+ }
  .nav-bar{
     margin-top: 50px;
  }
@@ -87,7 +90,7 @@ ul{
 
  .header-container{
    max-width: 1650px;
-   height: 500px;
+   height: 600px;
    margin: 50px auto;
    position: relative;
    overflow: hidden;    
@@ -148,4 +151,74 @@ margin-left: 25px;
 }
 .search-bar h4{
    margin-right: 30px;
+}
+
+
+/* Responsive design */
+
+@media screen and (max-width: 576px) {
+.display-flex{
+   flex-direction: column;
+}
+.sidebar{
+   display: block;
+   margin-left: 90px;
+}
+.nav-title{
+   margin-left: -100px;
+}
+   .nav-list{
+      display: none;
+   }
+   .image{
+      width: 361px;
+      height: 550px;
+      margin: 0 25px 0 25px;
+   }
+   .header-content h3{
+      width: 205px;
+      height: 28px;
+      font-size: 1.25rem;
+      margin: 30px auto;
+   }
+   .header-description{
+      width: 304px;
+      height: 63px;
+      font-size: 1rem;
+      margin: 8px auto;
+   }
+   .input-layer{
+      width: 310px;
+      height: 330px;
+      margin-left: 57px;
+   }
+   .select-tag{
+      margin-bottom: 150px;
+   }
+   .input-fild{
+      margin-top: 10px;
+   }
+   .input-fild{
+      width: 220px;
+      margin-right: 12px;
+   }
+   .select-tag select, .search-bar{
+      /* margin-top: 24px; */
+      width: 255px;
+      height: 52px;
+   }
+   .select-tag select{
+   margin: 24px auto;
+  }
+  .search-bar{
+   display: flex;
+   flex-direction: row;
+  }
+  .search-bar i{
+   margin-left: 70px;
+  }
+  .search-bar h4{
+   margin-right: 70px;
+  }
+
 }
