@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playwrite+AU+QLD:wght@100..400&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+/* shared styles */
+.display-flex, .nav-title, .nav-list ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.primary-color{
+    color: #FF5400;
+}
+
+ /* nav styles section */
+ .nav-bar{
+    margin-top: 50px;
+ }
+ .nav-title{
+    max-width: 273px;
+    height: 48px;
+    margin-left: 135px;
+    gap: 15px;
+    font-size: 2rem;
+    font-weight: 800;
+ }
+.trek-color{
+    margin-left: -10px;
+    color:#FF5400 ;
+ }
+ .nav-logo{
+    width: 48px;
+    height: 56px;
+ }
+ul{
+    gap: 44px;
+}
+ .nav-list{
+    margin-top: 30px;
+    max-width: 506px;
+    height: 43px;
+    margin-right: 127px
+ }
+ .nav-lists{
+   
+    list-style: none;
+ }
+ .nav-lists .nav-link{
+    text-decoration: none;
+    color:rgba(66, 66, 71, 1)
+ }
