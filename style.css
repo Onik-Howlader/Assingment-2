@@ -1,29 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playwrite+AU+QLD:wght@100..400&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+   margin: 0;
+   padding: 0;
 }
-body{
-    font-family: "Mulish", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
+
+body {
+   font-family: "Mulish", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: <weight>;
+   font-style: normal;
 }
 
 /* shared styles */
-.display-flex, .nav-title, .nav-list ul{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.display-flex,
+.nav-title,
+.nav-list ul {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
 }
-.primary-color{
-    color: #FF5400;
+
+.primary-color {
+   color: #FF5400;
 }
-.font-color{
-    color:rgba(19, 19, 24, 0.5);
+
+.font-color {
+   color: rgba(19, 19, 24, 0.5);
 }
-.input-fild, .input-file {
+
+.input-fild,
+.input-file {
    width: 174px;
    height: 52px;
    color: rgba(19, 19, 24, 0.5);
@@ -32,87 +39,101 @@ body{
    font-size: 1rem;
    border: none;
 }
-.btn-primary{
-      width: 174px;
-         height: 52px;
-         border-radius: 8px;
-         padding: 16px;
-         font-size: 1rem;
-         border: none;
-         font-size: 1rem;
-         color: rgba(255, 255, 255, 1);
-         background-color: #FF5400;
+
+.btn-primary {
+   width: 174px;
+   height: 52px;
+   border-radius: 8px;
+   padding: 16px;
+   font-size: 1rem;
+   border: none;
+   font-size: 1rem;
+   color: rgba(255, 255, 255, 1);
+   background-color: #FF5400;
 }
 
- /* nav styles section */
- .sidebar{
+/* nav styles section */
+.sidebar {
    display: none;
- }
- .nav-bar{
-    margin-top: 50px;
- }
- .nav-title{
-    max-width: 273px;
-    height: 48px;
-    margin-left: 135px;
-    gap: 15px;
-    font-size: 2rem;
-    font-weight: 800;
- }
-.trek-color{
-    margin-left: -10px;
-    color:#FF5400 ;
- }
- .nav-logo{
-    width: 48px;
-    height: 56px;
- }
-ul{
-    gap: 44px;
 }
- .nav-list{
-    margin-top: 30px;
-    max-width: 506px;
-    height: 43px;
-    margin-right: 127px
- }
- .nav-lists{
-   
-    list-style: none;
- }
- .nav-lists .nav-link{
-    text-decoration: none;
-    color:rgba(66, 66, 71, 1)
- }
- #home-color{
-    color: #FF5400;
- }
 
- .header-container{
+.nav-bar {
+   margin-top: 50px;
+}
+
+.nav-title {
+   max-width: 273px;
+   height: 48px;
+   margin-left: 135px;
+   gap: 15px;
+   font-size: 2rem;
+   font-weight: 800;
+}
+
+.trek-color {
+   margin-left: -10px;
+   color: #FF5400;
+}
+
+.nav-logo {
+   width: 48px;
+   height: 56px;
+}
+
+ul {
+   gap: 44px;
+}
+
+.nav-list {
+   margin-top: 30px;
+   max-width: 506px;
+   height: 43px;
+   margin-right: 127px
+}
+
+.nav-lists {
+
+   list-style: none;
+}
+
+.nav-lists .nav-link {
+   text-decoration: none;
+   color: rgba(66, 66, 71, 1)
+}
+
+#home-color {
+   color: #FF5400;
+}
+
+.header-container {
    max-width: 1650px;
    height: 600px;
    margin: 50px auto;
    position: relative;
-   overflow: hidden;    
- }
- .image{
-      width: 100%;
-         height: 100%;
-            position: absolute;
- }
- .header-content{
-      position: relative;
-      text-align: center;
- }
- .header-content> h3{|
-   width: 595px;
+   overflow: hidden;
+}
+
+.image {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+}
+
+.header-content {
+   position: relative;
+   text-align: center;
+}
+
+.header-content>h3 {
+   | width: 595px;
    height: 80px;
    font-size: 4rem;
    font-weight: 800;
    color: rgba(255, 255, 255, 1);
-   margin-top: 105px;   
+   margin-top: 105px;
 }
-.header-description{
+
+.header-description {
    width: 675px;
    height: 50px;
    font-size: 1rem;
@@ -120,202 +141,457 @@ ul{
    margin: 15px auto;
 }
 
-.input-layer{
-    background-color: rgba(255, 255, 255, 0.3);
-    width: 900px;
-    height: 84px;
-    border-radius: 16px;
-    margin: 48px auto;
+.input-layer {
+   background-color: rgba(255, 255, 255, 0.3);
+   width: 900px;
+   height: 84px;
+   border-radius: 16px;
+   margin: 48px auto;
 }
-.select-tag{
-   margin-right:50px;
+
+.select-tag {
+   margin-right: 50px;
    margin: 0;
    padding: 0;
-   
-} 
-.input-fild{
+
+}
+
+.input-fild {
    margin-left: 20px;
    height: 25px;
 
 }
-.input-file{
+
+.input-file {
    margin-left: 50px;
 }
-.search-bar{
-margin-left: 25px;
+
+.search-bar {
+   margin-left: 25px;
    margin: 0 20px 0 25px;
    padding: 0;
 }
-.search-bar i{
+
+.search-bar i {
    margin-left: 25px;
 }
-.search-bar h4{
+
+.search-bar h4 {
    margin-right: 30px;
 }
+
 /* section part1 */
-.popular-tours{
+.popular-tours {
    margin-left: 135px;
    align-items: center;
    margin-top: 103px;
 }
-.our-tours{
+
+.our-tours {
    max-width: 540px;
    height: 550px;
 }
-.popular-title{
+
+.popular-title {
    max-width: 365px;
    height: 50px;
    font-size: 2.5rem;
    font-weight: 900;
    color: rgba(19, 19, 24, 1);
 }
-.popular-description1, .popular-description2{
+
+.popular-description1,
+.popular-description2 {
    max-width: 577px;
    height: 52px;
    font-size: 1rem;
    margin-top: 24px;
 }
 
-.ul{
+.ul {
    max-width: 525px;
    height: 188px;
    font-size: 1rem;
    margin-left: 15px;
 }
-.ul li{
+
+.ul li {
    list-style: circle;
    margin-top: 24px;
 }
-.our-tours button{
+
+.our-tours button {
    margin-top: 32px;
-} 
-.images{
+}
+
+.images {
    max-width: 540px;
    height: 550px;
    margin-right: 135px;
 }
+
+/* part -2 */
+.your-destination {
+   max-width: 1920px;
+   height: auto;
+}
+
+.destination-title {
+   width: 478px;
+   height: 50px;
+   font-size: 2.25rem;
+   font-weight: 900;
+   margin: 25px auto;
+}
+
+.destination-describe {
+   width: 643px;
+   height: 52px;
+   font-size: 1rem;
+   margin: 10px auto;
+   text-align: center;
+}
+
+.counrty-images {
+   margin: 20px 135px;
+}
+
+.two-image,
+.my-country {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+}
+
+.two-image img {
+   width: 800px;
+   height: 320px;
+   border-radius: 16px;
+}
+
+.two-image,
+.three-imges,
+.my-country {
+   gap: 24px;
+   margin-top: 24px;
+}
+
+.three-imges {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+}
+
+.siril {
+   width: 550px;
+   height: 320px;
+
+}
+
+.northamerica {
+   width: 650px;
+   height: 320px;
+}
+
+.kash {
+   width: 380px;
+   height: 320px;
+}
+
+.bang {
+   width: 700px;
+   height: 320px;
+}
+
+.band {
+   width: 900px;
+   height: 320px;
+}
+
+.maldive,
+.indo,
+.siri,
+.north,
+.kasmir,
+.ban,
+.bandarbon {
+   position: absolute;
+   color: #ffffff;
+   margin-top: 140px;
+}
+
+.maldive,
+.indo,
+.bandarbon {
+   margin-left: 350px;
+   font-size: 1.75rem;
+
+}
+
+.ban,
+.north {
+   margin-left: 250px;
+   font-size: 1.75rem;
+}
+
+.kasmir {
+   margin-left: 150px;
+   font-size: 1.75rem;
+}
+
+.siri {
+   margin-left: 200px;
+   font-size: 1.75rem;
+}
+
 /* Responsive design */
 
-@media screen and (max-width: 576px) {
-.display-flex{
-   flex-direction: column;
-}
-.sidebar{
-   display: block;
-   margin-left: 90px;
-}
-.nav-title{
-   margin-left: -100px;
-}
-   .nav-list{
+@media screen and (max-width: 600px) {
+   .display-flex {
+      flex-direction: column;
+   }
+
+   .two-image,
+   .three-imges,
+   .my-country {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .sidebar {
+      display: block;
+      margin-left: 90px;
+   }
+
+   .nav-title {
+      margin-left: -100px;
+   }
+
+   .nav-list {
       display: none;
    }
-   .image{
+
+   .image {
       width: 361px;
       height: 550px;
       margin: 0 25px 0 25px;
    }
-   .header-content h3{
+
+   .header-content h3 {
       width: 205px;
       height: 28px;
       font-size: 1.25rem;
       margin: 30px auto;
    }
-   .header-description{
+
+   .header-description {
       width: 304px;
       height: 63px;
       font-size: 1rem;
       margin: 8px auto;
    }
-   .input-layer{
+
+   .input-layer {
       width: 310px;
       height: 330px;
       margin-left: 57px;
    }
-   .select-tag{
+
+   .select-tag {
       margin-bottom: 150px;
    }
-   .input-fild{
+
+   .input-fild {
       margin-top: 10px;
    }
-   .input-fild{
+
+   .input-fild {
       width: 220px;
       margin-right: 12px;
    }
-   .select-tag select, .search-bar{
+
+   .select-tag select,
+   .search-bar {
       width: 255px;
       height: 52px;
    }
-   .select-tag select{
-   margin: 24px auto;
-  }
-  .search-bar{
-   display: flex;
-   flex-direction: row;
-  }
-  .search-bar i{
-   margin-left: 70px;
-  }
-  .search-bar h4{
-   margin-right: 70px;
-  }
-.our-tours{
-      width: 361px;
-         height: 550px;
-        margin-left: -130px;
-}
-.images img{
-   width: 361px;
-   height: 450px;
-   margin: 0;
-   margin-top: -50px;
-}
-.popular-title{
-   margin-top: -100px;
-   margin-bottom: 60px;
-}
-.our-tours button {
-   margin-top: 60px;
-}
 
+   .select-tag select {
+      margin: 24px auto;
+   }
+
+   .search-bar {
+      display: flex;
+      flex-direction: row;
+   }
+
+   .search-bar i {
+      margin-left: 70px;
+   }
+
+   .search-bar h4 {
+      margin-right: 70px;
+   }
+
+   .our-tours {
+      width: 361px;
+      height: 550px;
+      margin-left: -130px;
+   }
+
+   .images img {
+      width: 361px;
+      height: 450px;
+      margin: 0;
+      margin-top: -50px;
+   }
+
+   .popular-title {
+      margin-top: -100px;
+      margin-bottom: 60px;
+   }
+
+   .our-tours button {
+      margin-top: 60px;
+   }
+
+   .destination-title {
+      max-width: 300px;
+      height: 25px;
+      font-size: 1.25rem;
+      font-weight: 900;
+   }
+
+   .destination-describe {
+      max-width: 290px;
+      height: 72px;
+   }
+
+   .counrty-images {
+      margin-left: 25px;
+      margin-right: 0;
+   }
+
+   .two-image img {
+      max-width: 361px;
+      height: 300px;
+      margin-left: 0;
+
+   }
+
+   .three-imges img {
+      max-width: 361px;
+      height: 300px;
+      margin-left: 0;
+   }
+
+   .my-country img {
+      max-width: 361px;
+      height: 300px;
+      margin-left: 0;
+   }
+
+   .maldive,
+   .indo,
+   .siri,
+   .north,
+   .kasmir,
+   .ban,
+   .bandarbon {
+      margin-left: 100px;
+   }
 }
 
 /* responsive for laptop */
 @media screen and (min-width: 900px) and (max-width: 1200px) {
-   .nav-title{
+   .nav-title {
       margin-left: 10px;
       margin-right: 0;
    }
-   .nav-list{
+
+   .nav-list {
       margin-right: 25px;
    }
-   ul .nav-lists{
+
+   ul .nav-lists {
       margin-left: -10px;
    }
 
-.popular-tours{
-   margin-top: 150px;
-}
-      .our-tours {
-         width: 361px;
-         height: 550px;
-         margin-left: -80px;
-      }
-   
-      .images img {
-         width: 361px;
-         height: 450px;
-         margin: 0;
-         margin-top: -50px;
-         margin-right: -80px;
-      }
-   
-      .popular-title {
-         margin-top: -100px;
-         margin-bottom: 60px;
-      }
-   
-      .our-tours button {
-         margin-top: 60px;
-      }
+   .popular-tours {
+      margin-top: 150px;
+   }
+
+   .our-tours {
+      width: 361px;
+      height: 550px;
+      margin-left: -80px;
+   }
+
+   .images img {
+      width: 361px;
+      height: 450px;
+      margin: 0;
+      margin-top: -50px;
+      margin-right: -80px;
+   }
+
+   .popular-title {
+      margin-top: -100px;
+      margin-bottom: 60px;
+   }
+
+   .our-tours button {
+      margin-top: 60px;
+   }
+
+   /* .my-country img {
+               max-width: 361px;
+               height: 300px;
+               margin-left: 0;
+            } */
+   .counrty-images {
+      margin-left: 25px;
+      margin-right: 0;
+   }
+
+   .two-image img {
+      max-width: 400px;
+      height: 300px;
+      margin-left: 0;
+
+   }
+
+   .siril {
+      width: 250px;
+      height: 320px;
+
+   }
+
+   .northamerica {
+      width: 350px;
+      height: 320px;
+   }
+
+   .kash {
+      width: 200px;
+      height: 320px;
+   }
+
+   .bang {
+      width: 350px;
+      height: 320px;
+   }
+
+   .band {
+      width: 390px;
+      height: 320px;
+   }
+
+   .maldive,
+   .indo,
+   .siri,
+   .north,
+   .kasmir,
+   .ban,
+   .bandarbon {
+      margin-left: 50px;
+   }
 }
