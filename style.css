@@ -342,6 +342,70 @@ ul {
    font-size: 1.75rem;
 }
 
+/* part-3 */
+.choose-title{
+   padding: 0;
+   margin: 30px auto;
+   width: 315px;
+   height: 50px;
+   font-size: 2.5rem;
+   font-weight: 900;
+}
+.choose-description{
+   width: 650px;
+   height: 52px;
+   font-size: 1rem;
+   margin: 20px auto;
+   text-align: center;
+}
+.card-itmes{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+}
+.price-card{
+   grid-column: 1 / span 2;
+   justify-self: center;
+      background-color: #fff6f6;
+         margin: 24px auto;
+         width: 1000px;
+         height: 285px;
+         border-radius: 16px;
+         border: 2px solid rgba(233, 68, 68, 0.05);
+}
+.hotel-card, .service-card{
+   width: 730px;
+   height: 285px;
+   border: none;
+   border-radius: 16px;
+}
+
+.hotel-card{
+      background-color: #fffbf7;
+      margin-left: 135px;
+      border: 2px solid rgba(251, 181, 99, 0.05);
+}
+
+.service-card{
+   background-color: #f3fdff;
+   margin-right: 135px;
+   border: 2px solid rgba(41, 206, 246, 0.05);
+   margin-left: 24px;
+}
+
+.hotel-card, .service-card, .price-card{
+   padding: 32px;
+}
+.hotel-card img,
+.service-card img,
+.price-card img{
+   margin-bottom: 32px;
+}
+.hotel-card h3,
+.service-card h3,
+.price-card h3{
+   margin-bottom: 20px;
+}
+
 /* Responsive design */
 
 @media screen and (max-width: 600px) {
@@ -351,7 +415,7 @@ ul {
 
    .two-image,
    .three-imges,
-   .my-country {
+   .my-country, .card-itmes {
       display: flex;
       flex-direction: column;
    }
@@ -369,7 +433,7 @@ ul {
       display: none;
    }
 
-   .image {
+   .image{
       width: 361px;
       height: 550px;
       margin: 0 25px 0 25px;
@@ -498,6 +562,22 @@ ul {
    .bandarbon {
       margin-left: 100px;
    }
+   .choose-title{
+        width: 134px;
+        height: 25px;
+        font-size: 1.25rem;    
+   }
+   .choose-description{
+      width: 310px;
+      height: 72px;
+      font-size: 1rem;
+   }
+      .hotel-card, .service-card, .price-card{
+               max-width: 290px;
+                  height: 280px;
+                  margin-top: 15px;
+                  margin-left: 25px;
+      }
 }
 
 /* responsive for laptop */
@@ -594,4 +674,15 @@ ul {
    .bandarbon {
       margin-left: 50px;
    }
+                  .hotel-card,
+                  .service-card,
+                  .price-card {
+                     max-width: 350px;
+                     height: 280px;
+                     margin-top: 15px;
+                     margin-left: 25px;
+                  }
+                  .price-card{
+                     margin-left: 25%;
+                  }
 }
