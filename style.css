@@ -343,7 +343,7 @@ ul {
 }
 
 /* part-3 */
-.choose-title{
+.choose-title {
    padding: 0;
    margin: 30px auto;
    width: 315px;
@@ -351,61 +351,359 @@ ul {
    font-size: 2.5rem;
    font-weight: 900;
 }
-.choose-description{
+
+.choose-description {
    width: 650px;
    height: 52px;
    font-size: 1rem;
    margin: 20px auto;
    text-align: center;
 }
-.card-itmes{
+
+.card-itmes {
    display: grid;
    grid-template-columns: repeat(2, 1fr);
 }
-.price-card{
+
+.price-card {
    grid-column: 1 / span 2;
    justify-self: center;
-      background-color: #fff6f6;
-         margin: 24px auto;
-         width: 1000px;
-         height: 285px;
-         border-radius: 16px;
-         border: 2px solid rgba(233, 68, 68, 0.05);
+   background-color: #fff6f6;
+   margin: 24px auto;
+   width: 1000px;
+   height: 285px;
+   border-radius: 16px;
+   border: 2px solid rgba(233, 68, 68, 0.05);
 }
-.hotel-card, .service-card{
+
+.hotel-card,
+.service-card {
    width: 730px;
    height: 285px;
    border: none;
    border-radius: 16px;
 }
 
-.hotel-card{
-      background-color: #fffbf7;
-      margin-left: 135px;
-      border: 2px solid rgba(251, 181, 99, 0.05);
+.hotel-card {
+   background-color: #fffbf7;
+   margin-left: 135px;
+   border: 2px solid rgba(251, 181, 99, 0.05);
 }
 
-.service-card{
+.service-card {
    background-color: #f3fdff;
    margin-right: 135px;
    border: 2px solid rgba(41, 206, 246, 0.05);
    margin-left: 24px;
 }
 
-.hotel-card, .service-card, .price-card{
+.hotel-card,
+.service-card,
+.price-card {
    padding: 32px;
 }
+
 .hotel-card img,
 .service-card img,
-.price-card img{
+.price-card img {
    margin-bottom: 32px;
 }
+
 .hotel-card h3,
 .service-card h3,
-.price-card h3{
+.price-card h3 {
    margin-bottom: 20px;
 }
 
+/* part-4 */
+.deals {
+   color: #131318;
+   font-size: 2.5rem;
+   font-weight: 800;
+   text-align: center;
+}
+
+.deals-description {
+   color: rgba(19, 19, 24, 0.70);
+   text-align: center;
+   margin: 45px 0;
+   margin-left: 625px;
+   font-size: 1rem;
+   font-weight: 400;
+   line-height: 26px;
+   width: 645px;
+}
+
+.tour-satorini {
+   margin: 45px 0;
+}
+
+.tour {
+   position: relative;
+   max-width: 100%;
+   height: 600px;
+   margin-left: 135px;
+   margin-right: 135px;
+}
+
+.tour-description {
+   position: absolute;
+   max-width: 580px;
+   height: 390px;
+   border-radius: 16px;
+   border: 2px solid #FFF;
+   background: rgba(255, 255, 255, 0.80);
+   backdrop-filter: blur(2.5px);
+   margin-left: 1000px;
+   margin-top: 60px;
+}
+
+.tour2nd-description {
+   margin-left: 100px;
+}
+
+.tour1st {
+   position: absolute;
+   width: 100%;
+   height: 600px;
+   object-fit: cover;
+   border-radius: 16px;
+}
+
+.timeloaction {
+   align-content: center;
+   margin-top: 52px;
+   margin-left: -45px;
+   display: flex;
+   justify-content: center;
+}
+
+.svg {
+   margin-left: 24px;
+}
+
+.dtl {
+   color: rgba(90, 90, 93, 1);
+}
+
+.tour-heading {
+   color: #131318;
+   font-family: Mulish;
+   font-size: 1.5rem;
+   font-weight: 800;
+   margin-left: 74px;
+   margin-top: 26px;
+}
+
+.toure-description {
+   margin-left: 74px;
+   margin-top: 16px;
+   line-height: 25px;
+   font-size: 1rem;
+   font-weight: 400;
+   color: #5A5A5D;
+   width: 452px;
+}
+
+.price {
+   color: #FF5400;
+   font-size: 1.25rem;
+   font-weight: 800;
+   margin-left: 74px;
+   margin-top: 16px;
+}
+
+.tour-btn {
+   margin-left: 74px;
+   margin-top: 24px;
+}
+
+/* part-5 */
+.perfect-place {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 80px;
+   margin-left: 135px;
+   margin-bottom: 30px;
+}
+
+.place {
+   max-width: 700px;
+   height: 423px;
+}
+
+.simple-place {
+   color: #131318;
+   font-size: 2.5rem;
+   font-weight: 800;
+   line-height: 60px;
+   width: 450px;
+}
+
+.place-description {
+   width: 530px;
+   color: #5A5A5D;
+   font-style: 1rem;
+   font-weight: 400;
+   line-height: 26px;
+   margin-top: 15px;
+}
+
+.unorder-list {
+   margin-left: 20px;
+   font-size: 1rem;
+   font-weight: 700;
+   line-height: 26px;
+   width: 520px;
+   margin-top: 20px;
+}
+
+.see-more {
+   margin-top: 40px;
+}
+
+.video-graphy {
+   position: relative;
+   max-width: 700px;
+   height: 423px;
+}
+
+.video {
+   position: absolute;
+   width: 700px;
+   height: 423px;
+}
+
+.watch-video {
+   position: absolute;
+   width: 280px;
+   color: #fff;
+   margin: 200px;
+   font-size: 1.5rem;
+   font-weight: 700;
+   line-height: 36px;
+   text-align: center;
+}
+
+.push-button {
+   position: absolute;
+   display: flex;
+}
+
+.push {
+   display: flex;
+}
+
+.pushh {
+   margin-top: 350px;
+   margin-left: 20px;
+}
+
+.time {
+   color: #f3f3f3;
+   margin-top: 350px;
+   margin-left: 10px;
+}
+
+.mute {
+   margin-top: 350px;
+   margin-left: 500px;
+}
+
+.mute svg {
+   margin-left: 5px;
+}
+
+.time-linee {
+   position: absolute;
+   width: 562px;
+   height: 4px;
+   margin-top: 400px;
+   margin-left: 105px;
+   border-radius: 8px;
+   background: rgba(255, 255, 255, 0.30);
+}
+
+.time-line {
+   position: absolute;
+   margin-top: 400px;
+   margin-left: 25px;
+}
+
+/* part-6 */
+
+.newsletter{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   margin-top: 50px;
+   margin-left: 135px;
+   margin-bottom: 30px;
+}
+.news{
+   width: 500px;
+   height: 422px;
+   border: 1px solid tomato;
+   border-radius: 16px;
+}
+.letter{
+   color: #131318;
+   font-size: 1.5rem;
+   font-weight: 800;
+   margin-top: 40px;
+   margin-left: 40px;
+}
+.news-description{
+   margin-top: 20px;
+      margin-left: 40px;
+      width: 350px;
+      font-size: 1rem;
+      line-height: 26px;
+      font-weight: 400;
+      color: #5A5A5D;
+}
+.input-fild{
+   width: 400px;
+   height: 20px;
+   border-radius: 8px;
+   margin-top: 20px;
+   margin-left: 40px;
+   background: rgba(19, 19, 24, 0.05);
+}
+.input-fild::placeholder{
+  padding: 20px;
+  color: rgba(19, 19, 24, 0.30);
+}
+.Subscribe-btn{
+   margin-top: 20px;
+   margin-left: 40px;
+   width: 430px;
+   font-size: 1.5rem;
+}
+.travel{
+   position: relative;
+  margin-right: 150px;        
+   height: 422px;
+   width: 800px;
+}
+.travel-img{
+   position: absolute;
+      height: 422px;
+         width: 800px;
+}
+.travelcom{
+   text-align: center;
+   position: absolute;
+   width: 350px;
+   height: 130px;
+   transform: rotate(-19.628deg);
+   border-radius: 16px;
+   margin-top: 205px;
+   margin-left: 407px;
+
+}
+.travelcom h3{
+   margin-top: 30px;
+}
 /* Responsive design */
 
 @media screen and (max-width: 600px) {
@@ -415,7 +713,8 @@ ul {
 
    .two-image,
    .three-imges,
-   .my-country, .card-itmes {
+   .my-country,
+   .card-itmes {
       display: flex;
       flex-direction: column;
    }
@@ -433,7 +732,8 @@ ul {
       display: none;
    }
 
-   .image{
+   .image,
+   .tour1st {
       width: 361px;
       height: 550px;
       margin: 0 25px 0 25px;
@@ -562,22 +862,129 @@ ul {
    .bandarbon {
       margin-left: 100px;
    }
-   .choose-title{
-        width: 134px;
-        height: 25px;
-        font-size: 1.25rem;    
+
+   .choose-title {
+      width: 134px;
+      height: 25px;
+      font-size: 1.25rem;
    }
-   .choose-description{
+
+   .choose-description {
       width: 310px;
       height: 72px;
       font-size: 1rem;
    }
-      .hotel-card, .service-card, .price-card{
-               max-width: 290px;
-                  height: 280px;
-                  margin-top: 15px;
-                  margin-left: 25px;
-      }
+
+   .hotel-card,
+   .service-card,
+   .price-card {
+      max-width: 290px;
+      height: 280px;
+      margin-top: 15px;
+      margin-left: 25px;
+   }
+
+   /* part-4 */
+   .deals-description {
+      margin-left: 30px;
+      max-width: 325px;
+   }
+
+   .tour1st {
+      margin-left: -110px;
+   }
+
+   .tour-description {
+      margin-left: -102px;
+      width: 340px;
+   }
+
+   .timeloaction {
+      margin-left: 0;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+   }
+
+   .tour-heading,
+   .toure-description {
+      margin-left: 35px;
+      width: 290px;
+   }
+
+   .price,
+   .tour-btn {
+      margin-left: 35px;
+   }
+
+   /* part-5 */
+   .perfect-place, .newsletter {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      margin-left: 25px;
+   }
+
+   .simple-place {
+      margin-left: 25px;
+      width: 250px;
+      line-height: 30px;
+      font-size: 1.75rem;
+   }
+
+   .place-description {
+      width: 345px;
+      font-size: 14px;
+      line-height: 24px;
+   }
+
+   .unorder-list {
+      width: 340px;
+      font-size: 14px;
+      line-height: 24px;
+   }
+
+   .see-more {
+      margin-left: -10px;
+   }
+
+   .video {
+      width: 340px;
+   }
+
+   .watch-video {
+      margin-left: 54px;
+   }
+
+   .mute {
+      margin-left: 150px;
+   }
+
+   .time-linee {
+      width: 215px;
+   }
+  
+   /* part-6 */
+ .news {
+    width: 340px;
+ }
+
+ .news-description {
+    width: 290px;
+ }
+
+ .Subscribe-btn {
+    width: 250px;
+ }
+ .travel{
+   margin-top: 30px;
+ }
+ .travel-img{
+   width: 340px;
+ }
+ .travelcom{
+   width: 250px;
+   margin-top: 222px;
+   margin-left: 43px;
+ }
 }
 
 /* responsive for laptop */
@@ -622,11 +1029,6 @@ ul {
       margin-top: 60px;
    }
 
-   /* .my-country img {
-               max-width: 361px;
-               height: 300px;
-               margin-left: 0;
-            } */
    .counrty-images {
       margin-left: 25px;
       margin-right: 0;
@@ -674,15 +1076,108 @@ ul {
    .bandarbon {
       margin-left: 50px;
    }
-                  .hotel-card,
-                  .service-card,
-                  .price-card {
-                     max-width: 350px;
-                     height: 280px;
-                     margin-top: 15px;
-                     margin-left: 25px;
-                  }
-                  .price-card{
-                     margin-left: 25%;
-                  }
+
+   .hotel-card,
+   .service-card,
+   .price-card {
+      max-width: 350px;
+      height: 280px;
+      margin-top: 15px;
+      margin-left: 25px;
+   }
+
+   .price-card {
+      margin-left: 25%;
+   }
+
+   .deals-description {
+      margin-left: 140px;
+   }
+
+   .tour {
+      width: 850px;
+      margin-left: 25px;
+   }
+
+   .tour1st {
+      width: 850px;
+   }
+
+   .tour-description {
+      margin-left: 280px;
+   }
+
+   /* part-5 */
+   .perfect-place, .newsletter {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      margin-left: 25px;
+   }
+
+   .simple-place {
+      margin-left: 25px;
+      width: 250px;
+      line-height: 30px;
+      font-size: 1.75rem;
+   }
+
+   .place-description {
+      width: 345px;
+      font-size: 14px;
+      line-height: 24px;
+   }
+
+   .unorder-list {
+      width: 340px;
+      font-size: 14px;
+      line-height: 24px;
+   }
+
+   .see-more {
+      margin-left: -10px;
+   }
+
+   .video {
+      width: 360px;
+   }
+
+   .watch-video {
+      margin-left: 54px;
+   }
+
+   .mute {
+      margin-left: 150px;
+   }
+
+   .time-linee {
+      width: 215px;
+   }
+            /* part-6 */
+            .news {
+               width: 340px;
+            }
+      
+            .news-description {
+               width: 290px;
+            }
+      
+            .Subscribe-btn, .input-fild {
+               width: 250px;
+            }
+      
+            .travel {
+               margin-top: 30px;
+            }
+      
+            .travel-img {
+               width: 400px;
+               margin-left: 100px;
+               margin-top: -30px;
+            }
+      
+            .travelcom {
+               width: 250px;
+               margin-top: 192px;
+               margin-left: 203px;
+            }
 }
